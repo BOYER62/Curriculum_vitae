@@ -14,6 +14,7 @@ body
     width: 95%;
     margin: auto;
 }
+
 header
 {
     background:linear-gradient(blue, white);
@@ -27,16 +28,7 @@ header
     padding-right: 3%;
 }
 
-.Experiences div
-{
-    display: flex;
-    flex-direction: row;
-}
 
-.Date
-{
-    width: 15%;
-}
 
 .Descriptions
 {
@@ -45,27 +37,66 @@ header
     width: 85%;
 }
 
-.Informations
-{
-    background: linear-gradient(rgb(156, 156, 199),rgb(2, 211, 234));
-    width: 20%;
-}
-
-.Photo
-{
-    width: 50%;
-    height: 50%;
-}
-
-figure
-{
-    justify-content: center;
-}
-
-.Disposition
+.Experiences div
 {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (min-width:600px) 
+{
+    
+    .Disposition
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Date
+    {
+        width: 15%;
+    }
+
+    .Photo
+    {
+        width: 50%;
+        height: 50%;
+    }
+
+    figure
+    {
+        justify-content: center;
+    }
+
+    .Informations
+    {
+        background: linear-gradient(rgb(156, 156, 199),rgb(2, 211, 234));
+        width: 20%;
+    }
+
+    
+
+}
+
+@media screen and (max-width:600px)
+{
+    .Disposition
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Date
+    {
+        width:100px;
+    }
+
+    .Informations
+    {
+        background: linear-gradient(rgb(156, 156, 199),rgb(2, 211, 234));
+        width: 100%;
+    }
+
 }
 
 h2
