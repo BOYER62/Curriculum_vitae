@@ -1,0 +1,96 @@
+@font-face
+{
+	font-family : "alex-brush";
+	src : url("../Images_Fonts/alex-brush/AlexBrush-Regular.ttf");
+}
+
+section
+{
+    padding-left: 2%;
+}
+
+body
+{
+    width: 95%;
+    margin: auto;
+}
+header
+{
+    background:linear-gradient(blue, white);
+    padding-left: 5%;
+}
+
+.Experiences
+{
+    width: 80%;
+    text-align: justify;
+    padding-right: 3%;
+}
+
+.Experiences div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Date
+{
+    width: 15%;
+}
+
+.Descriptions
+{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.Informations
+{
+    background: linear-gradient(rgb(156, 156, 199),rgb(2, 211, 234));
+    width: 20%;
+}
+
+.Photo
+{
+    width: 50%;
+    height: 50%;
+}
+
+figure
+{
+    justify-content: center;
+}
+
+.Disposition
+{
+    display: flex;
+    flex-direction: row;
+}
+
+h2
+{
+    font-family : "alex-brush", arial ;
+}
+
+.Professionnelle
+{
+   font-size: 1.5em;
+}
+
+.Formation
+{
+    font-size: 0,5em;
+    text-decoration: underline;
+}
+
+.Certifiantes
+{
+    margin-left: 15%;
+}
+
+ul
+{
+    list-style-type: none;
+    margin-left: 15%;
+}
