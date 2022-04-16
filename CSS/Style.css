@@ -13,10 +13,22 @@ body
 {
     width: 95%;
     margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode 
+{
+    background-color: black;
+    color: white;
 }
 
 header
 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
     background:linear-gradient(blue, white);
     padding-left: 5%;
 }
