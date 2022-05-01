@@ -33,6 +33,11 @@ header
     padding-left: 5%;
 }
 
+.date-stage
+{
+		border-bottom: 2px solid red;
+}
+
 .Experiences
 {
     width: 80%;
