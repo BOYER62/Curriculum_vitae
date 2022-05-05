@@ -1,0 +1,19 @@
+@media print
+{
+	.Disposition
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	body
+	{	
+		margin: 0%;
+		width: 90%;
+		margin: auto;
+	}
+	
+	.darkmode
+	{
+		display: none;
+	}
+}
