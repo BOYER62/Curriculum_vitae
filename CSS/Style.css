@@ -4,6 +4,16 @@
 	src : url("../Images_Fonts/alex-brush/AlexBrush-Regular.ttf");
 }
 
+.Link
+{
+    justify-content:center;
+}
+
+.Date_stage
+{
+    border-bottom: 2px solid red;
+}
+
 section
 {
     padding-left: 2%;
@@ -102,6 +112,37 @@ header
     {
         background: linear-gradient(rgb(156, 156, 199),rgb(2, 211, 234));
         width: 100%;
+    }
+
+}
+
+@media print
+{
+    .Disposition
+    {
+    display: flex;
+    flex-direction: row;
+    }
+
+    .Informations
+    {
+        background: linear-gradient(rgb(156, 156, 199),rgb(2, 211, 234));
+        width: 30%;
+    }
+
+    #dark-mode, Link
+    {
+        display: none;
+    }
+
+    p
+    {
+        font-size: 0.7em;
+    }
+
+    .Link
+    {
+        display: none;
     }
 
 }
