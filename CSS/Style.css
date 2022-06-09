@@ -11,7 +11,7 @@
 
 .Date_stage
 {
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
 }
 
 section
@@ -39,7 +39,8 @@ header
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    background:linear-gradient(blue, white);
+    background-image : url('../Images_Fonts/HEADER.png');
+    /*background:linear-gradient(blue, white);*/
     padding-left: 5%;
 }
 
